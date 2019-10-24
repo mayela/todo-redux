@@ -1,6 +1,8 @@
 import React from "react";
-import "./App.css";
-import { connect } from "net";
+import { connect } from "react-redux";
+import appActions from "../../redux/actions/appActions";
+import ToDo from "../ToDo";
+import "./index.css";
 
 const App = props => {
   return <ToDo {...props} />;
@@ -8,15 +10,15 @@ const App = props => {
 
 const mapStateToProps = state => {
   return {
-    list: state.appReducer.list,
+    list: state.appReducer.list
   };
 };
 
 const mapDispatchToProps = {
-  ...appActions,
+  ...appActions
 };
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  mapDispatchToProps
 )(App);

@@ -1,5 +1,5 @@
 import React from "react";
-import "./index";
+import "./index.css";
 
 const ToDoItem = props => {
   const { item, deleteItem } = props;

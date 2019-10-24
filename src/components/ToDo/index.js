@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ToDoItem from "../TodoItem";
-import "./index";
+import ToDoItem from "../ToDoItem";
+import "./index.css";
 
 const ToDo = props => {
   const { list, redux_add, redux_delete } = props;
@@ -31,6 +31,10 @@ const ToDo = props => {
 
   const handleInput = e => {
     setTodo(e.target.value);
+  };
+
+  const deleteItem = todo => {
+    redux_delete(todo.id);
   };
 
   return (
