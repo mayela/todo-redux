@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/todo-redux/static/css/main.437fb5af.chunk.css",
+    "main.js": "/todo-redux/static/js/main.b854e12e.chunk.js",
+    "main.js.map": "/todo-redux/static/js/main.b854e12e.chunk.js.map",
+    "runtime-main.js": "/todo-redux/static/js/runtime-main.c3caf08c.js",
+    "runtime-main.js.map": "/todo-redux/static/js/runtime-main.c3caf08c.js.map",
+    "static/js/2.16050599.chunk.js": "/todo-redux/static/js/2.16050599.chunk.js",
+    "static/js/2.16050599.chunk.js.map": "/todo-redux/static/js/2.16050599.chunk.js.map",
+    "index.html": "/todo-redux/index.html",
+    "precache-manifest.13159af39081b5d7599fd7a7f0b318ab.js": "/todo-redux/precache-manifest.13159af39081b5d7599fd7a7f0b318ab.js",
+    "service-worker.js": "/todo-redux/service-worker.js",
+    "static/css/main.437fb5af.chunk.css.map": "/todo-redux/static/css/main.437fb5af.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3caf08c.js",
+    "static/js/2.16050599.chunk.js",
+    "static/css/main.437fb5af.chunk.css",
+    "static/js/main.b854e12e.chunk.js"
+  ]
+}
